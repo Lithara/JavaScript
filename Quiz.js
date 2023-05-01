@@ -1,6 +1,8 @@
     // TODO 1: Declare & assign variables pointing to the corresponding element(s)
     // statement should be the "statement" div
+    const statement = document.getElementById("statement");
     // optionButtons should be all the elements within the "options" div
+    const optionButtons = document.querySelectorAll("#options button");
     // explanation should be the "explanation" div
 
 
