@@ -2,17 +2,22 @@
     // statement should be the "statement" div
     const statement = document.getElementById("statement");
     // optionButtons should be all the elements within the "options" div
-    const optionButtons = document.querySelectorAll("#options button");
+        //const optionButtons = document.querySelectorAll("#options button");
+    const optionButtons = document.querySelector("#options").children;
     // explanation should be the "explanation" div
-
+    const explanation = document.getElementById("explanation");
 
     // TODO 2: Declare & assign a variable called fact
     // Its value should be an object with a statement, true/false answer, and explanation 
-    
+    const fact  = {
+        statement: "Arrays are like objects",
+        answer: true,
+        explanation: "Arrays are a special type of object"
+    };
 
     
     // TODO 3: Set the text of the statement element to the fact's statement
-
+    statement.textContent = fact.statement;
         
 
     // TODO 4: Declare disable & enable functions to set or remove the "disabled" attribute from a given button element
