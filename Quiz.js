@@ -34,7 +34,7 @@
     // isCorrect(guess) should return true if the guess matches the fact's answer
     function isCorrect(guess)
     {
-        return guess === fact.answer;
+        return guess === fact.answer.toString();
     }
 
 
