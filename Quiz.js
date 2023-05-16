@@ -27,7 +27,7 @@
         button.setAttribute("disabled", "");
     }
     // enable(button) should remove the attribute "disabled" from the button element
-
+    const enable = (button) => button.removeAttribute("disabled");
 
 
     // TODO 5: Declare an isCorrect function that compares a guess to the right answer
